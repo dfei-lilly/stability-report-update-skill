@@ -1,0 +1,24 @@
+# Large data files - don't track
+*.xlsx
+*.csv
+*.zip
+raw/
+background/example-pairs/
+
+# Generated outputs
+*.pdf
+*.docx
+output/
+
+# Temporary files
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+temp*/
+node_modules/
+.obsidian/
+
+# Wiki (auto-generated)
+wiki/
