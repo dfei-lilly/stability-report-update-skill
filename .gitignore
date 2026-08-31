@@ -2,8 +2,10 @@
 *.xlsx
 *.csv
 *.zip
+*.emf
+*.png
 raw/
-background/example-pairs/
+background/
 
 # Generated outputs
 *.pdf
@@ -19,6 +21,13 @@ __pycache__/
 temp*/
 node_modules/
 .obsidian/
+
+# Example pair vendor data (too large for GitHub — use shared filesystem)
+examples/*/prior/
+examples/*/current/
+examples/*/reference/
+examples/*/output/
+examples/**/comparison_report_*
 
 # Wiki (auto-generated)
 wiki/
